@@ -41,6 +41,9 @@ This Node.js Bot script manages Multi Account for Blum bot, Unlimited Account Su
 5. AUTO JOIN THE TRIBE
 6. AUTO COMPLETE THE TASKS
 
+![image](https://github.com/user-attachments/assets/95248b67-4d6b-44f2-a2a7-950c71a3be5e)
+
+
 # FOR ANY KIND OF HELP CONTACT : 0xphatom on Discord https://discord.com/users/979641024215416842
 
 # Disclaimer and Warning
