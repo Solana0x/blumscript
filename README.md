@@ -14,6 +14,8 @@ This Node.js Bot script manages Multi Account for Blum bot, Unlimited Account Su
 3. Then Turn on `enable web inspecting`
 4. ![image](https://github.com/user-attachments/assets/9bc59cbc-0fd4-4cf8-ac70-1f6547edc366)
 5. Done ! Login to Blum Bot and inspect to get the Query ID (right click to Inspect)
+6. ![image](https://github.com/user-attachments/assets/c27bccac-b8bd-43fd-a3dd-7727be662abe)
+
 
 # Setps to follow !
 
