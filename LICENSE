@@ -1,21 +1,18 @@
-MIT License
+Copyright © [2024] [Phantom]. All rights reserved.
 
-Copyright (c) 2024 0xSolana
+This software and associated documentation files (the "Software") are proprietary and confidential to [Phantom]. No part of this Software may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the author, except in the case of brief quotations embodied in critical reviews and certain other non-commercial uses permitted by copyright law.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+You may not:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+- Use the Software for commercial purposes.
+- Modify, distribute, sublicense, or create derivative works based on the Software without express written consent from [Phantom].
+- Reverse engineer, decompile, or disassemble the Software, except where such actions are expressly permitted by applicable law notwithstanding this limitation.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This Software is provided "as-is" and without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the author be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+
+For inquiries regarding licensing and usage rights, please contact:
+
+[Phantom]  
+[https://discord.com/users/979641024215416842]
+
+All rights reserved.
