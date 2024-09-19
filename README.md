@@ -33,6 +33,15 @@ This Node.js Bot script manages Multi Account for Blum bot, Unlimited Account Su
    2. if you do no (n) then it will skip the task and just play game and daily checkin etc stuff.
 11. So, Use yes(y) may be first time then afterwards for daily usage use (n) !!
 
+
+```  async randomDelay() {
+    const delay = Math.floor(Math.random() * (5000 - 3000 + 1)) + 3000;
+    return new Promise(resolve => setTimeout(resolve, delay));
+  }
+```
+
+# IF you wanted to add your Custom Random Delay than You can changed `3000` this to 0 ! 3000 means => 3 seconds delay in btw Tasks !
+
 # Features of the BOT
 
 1. AUTO FARMING BOT
