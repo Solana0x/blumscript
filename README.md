@@ -28,7 +28,8 @@ This Node.js Bot script manages Multi Account for Blum bot, Unlimited Account Su
 7. Add `query_id=` in data.txt file every line = new `query_id=`
 8. Repeat the process for all the Telegram accounts
 9. One done Run the Bot code by - `node blum.js`
-10. Bot have 2 Ways 1. if you do yes (y) then it will complete the tasks also like Coinmarketcap, binance etc all tasks in app
+10. If You wanted to USE proxys to be safe from Sybil ! then use `node blum-proxy.js` and add your proxis in the `proxy.txt` file !! 
+11. Bot have 2 Ways 1. if you do yes (y) then it will complete the tasks also like Coinmarketcap, binance etc all tasks in app
    2. if you do no (n) then it will skip the task and just play game and daily checkin etc stuff.
 11. So, Use yes(y) may be first time then afterwards for daily usage use (n) !!
 
