@@ -51,6 +51,10 @@ This Node.js Bot script manages Multi Account for Blum bot, Unlimited Account Su
 5. AUTO JOIN THE TRIBE
 6. AUTO COMPLETE THE TASKS
 
+# Buy proxy !
+
+1. As per my suggestion you can buy residentail or datacenter proxy as per your budget from this website [https://dataimpulse.com/?aff=23392](https://dataimpulse.com/?aff=23392) .
+
 ![image](https://github.com/user-attachments/assets/95248b67-4d6b-44f2-a2a7-950c71a3be5e)
 
 
