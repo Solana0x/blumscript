@@ -231,7 +231,7 @@ class GameBot {
   async getTasks() {
     try {
       await this.randomDelay();
-      const response = await axios.post('get', 'https://game-domain.blum.codes/api/v1/tasks', null, true);
+      const response = await axios.post('get', 'https://earn-domain.blum.codes/api/v1/tasks', null, true);
       return response;
     } catch (error) {
       await this.log(`error: ${error.message}`, 'error');
@@ -242,7 +242,7 @@ class GameBot {
   async getTasks() {
     try {
       await this.randomDelay();
-      const response = await axios.get('https://game-domain.blum.codes/api/v1/tasks', { headers: await this.headers(this.token) });
+      const response = await axios.get('https://earn-domain.blum.codes/api/v1/tasks', { headers: await this.headers(this.token) });
       if (response.status === 200) {
         return response.data;
       } else {
@@ -258,7 +258,7 @@ class GameBot {
   async startTask(taskId) {
     try {
       await this.randomDelay();
-      const response = await axios.post(`https://game-domain.blum.codes/api/v1/tasks/${taskId}/start`, {}, { headers: await this.headers(this.token) });
+      const response = await axios.post(`https://earn-domain.blum.codes/api/v1/tasks/${taskId}/start`, {}, { headers: await this.headers(this.token) });
       return response.data;
     } catch (error) {
       return null;
@@ -269,7 +269,7 @@ class GameBot {
   async claimTask(taskId) {
     try {
       await this.randomDelay();
-      const response = await axios.post(`https://game-domain.blum.codes/api/v1/tasks/${taskId}/claim`, {}, { headers: await this.headers(this.token) });
+      const response = await axios.post(`https://earn-domain.blum.codes/api/v1/tasks/${taskId}/claim`, {}, { headers: await this.headers(this.token) });
       return response.data;
     } catch (error) {
       return null;
@@ -313,7 +313,7 @@ class GameBot {
         .split('\n')
         .filter(Boolean);
 
-    const ndone = await this.askQuestion('Do you want to do the quest? (y/n): ');
+    const ndone = await this.askQuestion('Do you wanted to do the Quests Tasks?? (y/n): ');
     const ydone = ndone.toLowerCase() === 'y';
 
     while (true) {
