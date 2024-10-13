@@ -131,7 +131,7 @@ class GameBot {
     const data = JSON.stringify({ game: 'example_game' });
     try {
       await this.randomDelay();
-      const response = await axios.post('https://game-domain.blum.codes/api/v1/game/play', data, { headers: await this.headers(this.token) });
+      const response = await axios.post('https://game-domain.blum.codes/api/v2/game/play', data, { headers: await this.headers(this.token) });
       if (response.status === 200) {
         this.currentGameId = response.data.gameId;
         return response.data;
@@ -154,7 +154,7 @@ class GameBot {
     const data = JSON.stringify({ gameId: this.currentGameId, points: points });
     try {
       await this.randomDelay();
-      const response = await axios.post('https://game-domain.blum.codes/api/v1/game/claim', data, { headers: await this.headers(this.token) });
+      const response = await axios.post('https://game-domain.blum.codes/api/v2/game/claim', data, { headers: await this.headers(this.token) });
       return response.data;
     } catch (error) {
       await this.log(`Unable to claim game reward: ${error.message}`, 'error');
