@@ -157,7 +157,7 @@ class GameBot {
     const data = JSON.stringify({ game: 'example_game' });
     try {
       await this.randomDelay();
-      const response = await axios.post('https://game-domain.blum.codes/api/v1/game/play', data, {
+      const response = await axios.post('https://game-domain.blum.codes/api/v2/game/play', data, {
         headers: await this.headers(this.token),
         httpsAgent: proxyAgent   // Use proxy agent for this request
       });
@@ -183,7 +183,7 @@ class GameBot {
     const data = JSON.stringify({ gameId: this.currentGameId, points: points });
     try {
       await this.randomDelay();
-      const response = await axios.post('https://game-domain.blum.codes/api/v1/game/claim', data, {
+      const response = await axios.post('https://game-domain.blum.codes/api/v2/game/claim', data, {
         headers: await this.headers(this.token),
         httpsAgent: proxyAgent   // Use proxy agent for this request
       });
